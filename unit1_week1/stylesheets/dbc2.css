@@ -1,0 +1,57 @@
+body{
+	text-align: center;
+}
+
+div {
+	padding: 15px;
+	border: 2px solid black;
+	margin: 15px;
+}
+
+.red{
+	color: red;
+}
+
+#a{
+	width: 1020px;
+}
+
+#heading{
+	background-color: lightblue;
+	height: 100px;
+}
+
+#sidebar{
+ 	float: left;
+	background-color:lightgrey;
+	width: 100px;
+	height: 300px;
+	position: absolute;
+}
+
+#content{
+	display: inline;
+	float: right;
+	background-color: lightgrey;
+	width: 800px;
+	height: 300px;
+	position: relative;
+}
+
+#footer{
+	clear: both;
+	background-color: lightblue;
+	height: 100px;
+}
+
+#green{
+	color: red;
+	position: absolute;
+	right: 300px;
+	top: 250px;
+}
+
+a:link{color: blue;}
+a:visited{color: green;}
+a:hover{color: yellow;}
+a:active{color: white;}
