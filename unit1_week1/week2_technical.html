@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+</head>
+<link rel="stylesheet" type="text/css" href="stylesheets/week2_technical.css">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Bitter">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source Sans Pro">
+<body>
+
+<div id="container">
+	<header>
+		Posted on April 10th, 2014
+		<h1>The CSS Box Model</h1>
+		<h2>Understanding Margin, Borders, and Padding</h2>
+	</header>
+
+	<section>	
+		<p>Each element in an HTML document, while not necessarily static in size or shape, is rectangular and has both height and width. Each element is composed of its margin, border, padding, and content. In CSS, the term "box model" is used to refer to these components. The total width and height of an element is the sum of these four components. The image below illustrates this concept.</p>
+
+		<img src="images/boxmodel.png">
+
+		<p>The content contains any text and images in the element.</p>
+
+		<p>The padding surrounds the content, shares its background color, and creates empty space between the content and its border.</p>
+
+		<p>The border surrounds the padding, and has its own color and style.</p>
+
+		<p>The margin surrounds the border, is transparent, and creates empty space between the element and other elements on the page.</p>
+
+		<p>To understand how to calculate the total width of an element, consider as an example an element styled with the following CSS: </p>
+
+		Width: 500px /*This sets the width of the content area only*/<br>
+		Padding: 30px<br>
+		Border: 2px solid black<br>
+		Margin: 18px<br><br>
+
+		Calculating the width:<br>
+		500px<br>
+		+ 60px (left and right padding)<br>
+		+ 4px (left and right border)<br>
+		+ 36px (left and right margin)<br>
+		= 570px total width<br>
+	</section>
+
+</div>
+</body>
+</html>

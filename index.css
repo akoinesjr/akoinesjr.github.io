@@ -10,7 +10,7 @@ body{
 .container{
 	background: #EBEDC5;
 	width: 1000px;
-	margin: 10px;
+	margin: 10px auto;
 	padding: 10px;
 	border: 2px solid black;
 }
