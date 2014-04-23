@@ -5,16 +5,21 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Bitter">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source Sans Pro">
 </head>
-Posted on 
+<div id="container">
+Posted on April 23, 2014
 <header>
-	<h1>Title</h1>
-	<h2>Sub-Title</h2>
+	<h1>Ruby: Enumerable#map</h1>
 </header>
 <body>
-<div id="container">
+
 
 	<section>
+	<p>Hashes and arrays are great tools for organizing our data, but what's far more powerful is the ability to manipulate that data. This can of course be done with the #each method, but Ruby also includes a module called Enumerable that contains a wide variety of other useful methods.</p>
+	<p>One widely used method is the #map method. #map returns a new array that contains the result of running the block once for every element.</p>
 
+	<p>[1, 2, 3].map { |n| n * n } #=> [1, 4, 9]</p>
+
+	<p>This differs from #each in that it allows us to create a new array as opposed to simply doing something with the data contained in the original array.</p>
 	</section>
 
 </div>
