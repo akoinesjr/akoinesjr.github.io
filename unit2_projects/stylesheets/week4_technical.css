@@ -1,0 +1,15 @@
+body{
+	font-family: Source Sans Pro, serif;
+}
+
+h1, h2{
+	font-family: Bitter, serif;
+}
+
+#container{
+	min-width: 600px;
+	max-width: 1000px;
+	margin: auto;
+	border: 2px solid black;
+	padding: 10px;
+}
