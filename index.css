@@ -1,52 +1,43 @@
-body{
-	background: #DDDAF5;
-	font-family: Sintony, Serif;
+#header{
+	background: white;
+	position: fixed;
+	height: 75px;
+	top: 0;
+	width: 100%;
 }
 
-.content{
-	clear: both;
+#container{
+	margin-top: 75px;
+	background: lightgrey;
+	width: 100%;
 }
 
-.container{
-	background: #EBEDC5;
-	width: 1000px;
-	margin: 10px auto;
-	padding: 10px;
-	border: 2px solid black;
-}
-
-.footer{
+#footer{
+	background: lightgrey;
+	position: relative;
+	height: 75px;
+	width: 100%;
 	text-align: center;
-	clear: both;
-	margin: 10px;
-	padding: 10px;
-	border: 2px solid black;
-	background: #DDDAF5;
 }
 
-.box{
-	margin: 1%;
-	border: 2px solid black;
-	background: #DAF5DD;
-	width: 28%;
-	height: 80px;
-	display: inline-block;
-	float: left;
-	border-radius: 20px;
-	text-align: center;
-	line-height: 80px;
+#intro{
+	padding: 20px 50px;
+}
+
+#DBCWork{
+	padding: 50px;
 }
 
 h1 {
-	width: 500px;
+	width: 30%;
 	float: left;
 	font-family: Libre Baskerville, Serif;
 	font-size: 1.7em;
+	padding-left: 50px;
 }
-h2, h3{
-	width: 800px;
-	float: left;
-	font-family: Libre Baskerville, Serif;
+
+img{
+	width: 100%;
 }
 
 .nav{
@@ -54,15 +45,17 @@ h2, h3{
 	list-style: none;
 }
 
+ul{
+	padding-right: 50px;
+}
+
 ul.nav li{
-	background: #DDDAF5;
 	padding: 10px;
 	margin: 0px 10px;
-	border-radius: 20px;
 	width: 90px;
 	text-transform: uppercase;
 	float: left;
 	text-align: center;
 	margin-right: 20px;
-	border: 2px solid black;
+	
 }
